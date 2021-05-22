@@ -1,0 +1,31 @@
+body{
+    background-color: #334443;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color:#fffbdf;
+    padding: 40px;
+    width: 500px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-self: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#height{
+    justify-content: center;
+}
+#button{
+    width: 200px;
+    height: 25px;
+    background-color: #34656d;
+    color:#fffbdf;
+    border-radius: 10px;
+}
