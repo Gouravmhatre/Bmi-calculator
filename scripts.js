@@ -8,15 +8,15 @@ function calculateBmi()
 
     if (bmi <= 18.6)
     {
-        document.getElementById('para').innerHTML="Underweight"
+        document.getElementById('para').innerHTML="Oops!! You are Underweight 😒"
 
     }
     else if(18.6 < bmi && bmi <= 24.9 )
     {
-        document.getElementById('para').innerHTML="Normal"
+        document.getElementById('para').innerHTML="Wow!! You are fit 😍"
     }
     else 
     {
-        document.getElementById('para').innerHTML="Overweight"
+        document.getElementById('para').innerHTML=" Oops!! You are Overweight 😒"
     }
 }

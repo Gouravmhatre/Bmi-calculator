@@ -1,5 +1,7 @@
 body{
-    background-color: #334443;
+    background-image: url(./assets/Measuring-Tape.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -24,8 +26,30 @@ p{
 }
 #button{
     width: 200px;
-    height: 25px;
+    height: 40px;
     background-color: #34656d;
     color:#fffbdf;
     border-radius: 10px;
+    margin-top: 25px;
+    font-size: large;
+}
+#height{
+    width:250px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+}
+#weight{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+}
+#para{
+    font-size: x-large;
+    font-weight: bold;
 }
